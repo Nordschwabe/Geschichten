@@ -1,0 +1,91 @@
+.navigation{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    background-color: darkgray;
+    border: 1px solid blue;
+    width: fit-content;
+    padding: 5px;
+}
+.navigation a{
+    color: ivory;
+    background-color: grey;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid blue
+}
+.navigation a:hover{
+    color: gold;
+    border-color: cyan;
+}
+.headfoot{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid white;
+    text-align: center;
+    width: fit-content;
+}
+.headfoot:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.headfoot h1{
+    color: rgb(43, 43, 136);
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 100%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.element{
+    position: fixed;
+    top: 200px;
+    color: skyblue;
+    background-color: rgba(255, 174, 0, 0.3); 
+    border: 1px solid rgb(255, 174, 0);
+    font-size: larger;
+    padding: 30px;
+}
+.element:hover{
+    background-color: rgba(255, 174, 0, 0.5); 
+}
+.story{
+    position: fixed;
+    top: 200px;
+    width: 85%;
+    height: 70%;
+    background-color: ivory;
+    border: 1px solid blue;
+    padding: 30px;  
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}
+#categorySelection{
+    text-align: center;
+    list-style-type: none;
+    
+}
+#categorySelection li{
+    position: relative;
+    background-color: rgba(112, 128, 144, 0.6);
+    cursor: pointer;
+    padding: .5em;
+    border: 1px solid slategray;
+}
+#categorySelection li:hover{
+    background-color: rgba(112, 128, 144, 0.8); 
+}
+#categorySelection li a{
+    text-decoration: none;
+    color: rgb(43, 43, 136);
+}
