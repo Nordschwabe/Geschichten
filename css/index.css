@@ -1,3 +1,27 @@
 body{
     background: url("../img/background.jpg") no-repeat center center fixed;
 }
+#category-selection{
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+#category-selection li{
+    /* width: 90vw;
+    padding: 5px;
+    margin: .5em; */
+    position: relative;
+    background-color: rgba(112, 128, 144, 0.6);
+    cursor: pointer;
+    border: 1px solid slategray;
+}
+#category-selection li:hover{
+    background-color: rgba(112, 128, 144, 0.8); 
+}
+#category-selection li a{
+    text-decoration: none;
+    color: rgb(43, 43, 136);
+}
