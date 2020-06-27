@@ -1,8 +1,11 @@
 body{
     background: url("../img/background.jpg") no-repeat center center fixed;
 }
+#welcome{
+    margin-left: 5vw;
+}
 #category-selection{
-    width: 100vw;
+    width: 100%;
     padding-left: 10vw;
     padding-right: 10vw;
     text-align: center;
@@ -10,9 +13,6 @@ body{
     box-sizing: border-box;
 }
 #category-selection li{
-    /* width: 90vw;
-    padding: 5px;
-    margin: .5em; */
     position: relative;
     background-color: rgba(112, 128, 144, 0.6);
     cursor: pointer;

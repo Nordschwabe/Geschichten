@@ -102,6 +102,7 @@ h1{
 }
 .element{
     width: 100vw;
+    max-width: 1000px;
     box-sizing: border-box;
     color: rgb(16, 95, 126);
     background-color: rgba(255, 174, 0, 0.4); 
@@ -115,19 +116,40 @@ h1{
     text-shadow: 1px 1px azure;
 }
 .story{
-    position: fixed;
-    top: 200px;
-    width: 85%;
-    height: 70%;
+    /* position: relative; */
+     /* top: 200px; */
+    left: 0;
+    width: calc(100vw - 63px); 
+    height: 60vh;
     background-color: ivory;
     border: 1px solid blue;
     padding: 30px;  
     overflow-wrap: break-word;
     overflow-y: scroll;
 }
+@media (min-width: 1000px){
+    .element{
+        margin-left: 5vw;
+    }
+    .story{
+        width: 84vw;
+        margin-left: 6vh;
+        margin-right: 6vh;
+    }
+}
 @media (min-height: 800px){
     .gap{
         height: 5vh;
         max-height: 25px;
+    }
+}
+@media (min-height: 950px){
+    .story{
+        height: 65vh;
+    }
+}
+@media (min-height: 1100px){
+    .story{
+        height: 70vh;
     }
 }

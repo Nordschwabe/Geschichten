@@ -1,3 +1,4 @@
 body{
-    background: url("../img/sheep.jpg") no-repeat center center fixed;
+    background-image: url("../img/sheep.jpg");
+    background-size: cover;
 }
