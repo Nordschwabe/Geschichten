@@ -7,15 +7,7 @@
         <link rel="stylesheet" href="../css/index.css">
     </head>
     <body>
-        <nav class="navigation">
-            <div class="vertical-center">
-                <ul class="link-list">
-                    <li><a href="index.html">Zum Grundstück</a></li>
-                    <li><a href="gartenfreuden.html">Gartenfreuden</a></li>
-                    <li><a href="pamphlete.html">Subtile Kritik</a></li>
-                </ul> 
-            </div>
-        </nav>
+        <div id="insertedNavbar"></div>
         <div class="inner-contents">
             <header class="headfoot">
                 <h1>Nordschwabe</h1>
@@ -24,17 +16,27 @@
             </header>  
             <div class="gap"></div>
             <article class="element">
-                <p><b>Willkommen im Heimathafen des Nordschwaben. <br> 
-                Sieh dich bei meinen Geschichten um:</b></p>
+                <p id="welcome"><b>
+                    Willkommen im Heimathafen des Nordschwaben. <br> 
+                    Sieh dich bei meinen Geschichten um:
+                </b></p>
                 <div class="horizontal-center">
                     <ul id="category-selection">
                         <li>
-                            <a href="gartenfreuden.html"><h3>Gartenfreuden</h3>
-                            Herrn Reinweißens Possen</a>
+                            <a href="gartenfreuden.html">
+                                <p>
+                                    <h3>Gartenfreuden</h3>
+                                    Herrn Reinweißens Possen
+                                </p>
+                            </a>
                         </li>
                         <li>
-                            <a href="pamphlete.html"><h3>Subtile Kritik</h3>
-                            ... am politischen und gesellschaftlichen Geschehen</a>
+                            <a href="pamphlete.html">
+                                <p>
+                                    <h3>Subtile Kritik</h3>
+                                    ... am politischen und gesellschaftlichen Geschehen
+                                </p>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -46,5 +48,6 @@
                 <a href="mailto:nordschwabe@pm.me">Schreib mir eine Mail!</a>
             </div> 
         </footer>
+        <script src="../js/navbar.js"></script>
     </body>
 </html>
