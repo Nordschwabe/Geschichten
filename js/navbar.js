@@ -1,5 +1,4 @@
 const load = () => {
-    // alert(document.getElementById("insertedNavbar").innerHTML);
     document.getElementById("insertedNavbar").innerHTML =    `   <nav class="navigation">
     <div class="vertical-center">
         <ul class="link-list">

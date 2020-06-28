@@ -126,6 +126,13 @@ h1{
     padding: 30px;  
     overflow-wrap: break-word;
     overflow-y: scroll;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+@media(min-width: 400px){
+    .story{
+        font-size: 16pt;
+    }
 }
 @media (min-width: 1000px){
     .element{
