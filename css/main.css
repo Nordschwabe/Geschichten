@@ -109,7 +109,7 @@ h1{
     color: rgb(16, 95, 126);
     background-color: rgba(255, 174, 0, 0.4); 
     border: 1px solid rgb(255, 174, 0);
-    font-size: larger;
+    font-size: 14pt;
 }
 .element:hover{
     background-color: rgba(255, 174, 0, 0.5);
