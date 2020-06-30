@@ -15,7 +15,6 @@ h1{
     width: 100vh;
 }
 .navigation{
-    /* position: fixed; */
     width: 100vw;
     height: 5vh;
     min-height: 30px;
@@ -103,7 +102,10 @@ h1{
 .element{
     width: 100vw;
     max-width: 1000px;
+    max-height: 60vh;
+    overflow-y: hidden;
     box-sizing: border-box;
+    padding-bottom: 5vh;
     color: rgb(16, 95, 126);
     background-color: rgba(255, 174, 0, 0.4); 
     border: 1px solid rgb(255, 174, 0);
@@ -112,7 +114,11 @@ h1{
 .element:hover{
     background-color: rgba(255, 174, 0, 0.5);
 }
-.element p{
+.element-contents{
+    height: 50vh;
+    overflow-y: scroll;
+}
+.element-description{
     text-shadow: 1px 1px azure;
 }
 .story{

@@ -2,30 +2,3 @@ body{
     background-image: url("../img/garten.jpg");
     background-size: cover;
 }
-#story-selection{
-    width: 100%;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    /* text-align: center; */
-    list-style-type: none;
-    box-sizing: border-box;
-}
-#story-selection li{
-    position: relative;
-    background-color: rgba(112, 128, 144, 0.6);
-    cursor: pointer;
-    border: 1px solid slategray;
-    border-left: 8px solid rgba(255, 255, 255, 0.4);
-    margin-bottom: 1vh;
-}
-#story-selection li:hover{
-    background-color: rgba(112, 128, 144, 0.8); 
-    border-left: 8px solid rgba(43, 43, 136,0.8);
-}
-#story-selection li a{
-    position: relative;
-    margin: 10px 0;
-    left: 2vw;
-    text-decoration: none;
-    color: rgb(43, 43, 136);
-}

@@ -1,4 +1,4 @@
-const load = () => {
+const loadNavbar = () => {
     document.getElementById("insertedNavbar").innerHTML =    `   <nav class="navigation">
     <div class="vertical-center">
         <ul class="link-list">
@@ -9,4 +9,4 @@ const load = () => {
     </div>
 </nav>`;
 }
-load();
+loadNavbar();

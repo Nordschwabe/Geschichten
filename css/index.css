@@ -21,7 +21,7 @@ body{
 #category-selection li:hover{
     background-color: rgba(112, 128, 144, 0.8); 
 }
-#category-selection li a{
+#category-selection a{
     text-decoration: none;
     color: rgb(43, 43, 136);
 }
