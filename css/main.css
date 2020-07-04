@@ -12,7 +12,7 @@ h1{
     line-height: 10px;
 }
 .inner-contents{
-    width: 100vh;
+    width: 100vw;
 }
 .navigation{
     width: 100vw;
@@ -72,7 +72,6 @@ h1{
     margin-left: auto;
 } */
 .headfoot{
-    /* position: fixed; */
     width: 100vw;
     height: 15vh;
     min-height: 100px;
@@ -122,8 +121,6 @@ h1{
     text-shadow: 1px 1px azure;
 }
 .story{
-    /* position: relative; */
-     /* top: 200px; */
     left: 0;
     width: calc(100vw - 63px); 
     height: 60vh;
@@ -135,6 +132,7 @@ h1{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     
 }
+/* PC */
 @media(min-width: 400px){
     .story{
         font-size: 16pt;
@@ -164,5 +162,33 @@ h1{
 @media (min-height: 1100px){
     .story{
         height: 70vh;
+    }
+}
+/* Phone horizontal */
+@media (max-height: 500px) and (max-width: 900px){
+    .phone-horiz-header{
+        float:left; 
+        width: 14%;
+        max-height: none;
+        height: -moz-max-content;
+        height: fit-content;
+        padding: 2vw;
+        font-size: smaller;
+        border: 2px solid white;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+    .element{
+        float: right;
+        width: 80%;
+        max-height: none;
+        height: 75vh;
+    }
+    .element-contents{
+        height: 60vh;
+    }
+    .story{
+        float: right;
+        width: 73%;
     }
 }
