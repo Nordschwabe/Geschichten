@@ -115,7 +115,7 @@ h1{
 }
 .element-contents{
     height: 50vh;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .element-description{
     text-shadow: 1px 1px azure;
@@ -133,7 +133,7 @@ h1{
     
 }
 /* PC */
-@media(min-width: 400px){
+@media(min-width: 400px) and (min-height: 400px){
     .story{
         font-size: 16pt;
     }
@@ -169,7 +169,7 @@ h1{
     .phone-horiz-header{
         float:left; 
         width: 14%;
-        max-height: none;
+        max-height: 65vh;
         height: -moz-max-content;
         height: fit-content;
         padding: 2vw;
@@ -182,7 +182,7 @@ h1{
         float: right;
         width: 80%;
         max-height: none;
-        height: 75vh;
+        height: 70vh;
     }
     .element-contents{
         height: 60vh;
