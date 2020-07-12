@@ -8,8 +8,8 @@ body{
     display: flex;
     flex-direction: column;
 }
-h1{
-    line-height: 10px;
+h1, h4{
+    margin: 0;
 }
 .inner-contents{
     width: 100vw;
@@ -168,10 +168,10 @@ h1{
 @media (max-height: 500px) and (max-width: 900px){
     .phone-horiz-header{
         float:left; 
-        width: 14%;
+        width: 11%;
         max-height: 65vh;
-        height: -moz-max-content;
-        height: fit-content;
+        /* height: -moz-max-content; */
+        height: max-content;
         padding: 2vw;
         font-size: smaller;
         border: 2px solid white;
@@ -190,5 +190,15 @@ h1{
     .story{
         float: right;
         width: 73%;
+    }
+}
+/* Everything else */
+@media (min-height: 501px), (min-width: 901px){
+    .bigscreen-vertical-center{
+        margin: 0;
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 }

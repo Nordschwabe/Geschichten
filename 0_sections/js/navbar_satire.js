@@ -4,7 +4,7 @@ const loadNavbar = () => {
         <ul class="link-list">
             <li><a href="../../html/index.html">Zum Grundstück</a></li>
             <li><a href="../../0_sections/html/satire.html">Satirisches</a></li>
-            <li><a href="../../html/latest.html">Neueste Geschichten</a></li>
+            <li><a href="../../html/latest.html">Das Neueste</a></li>
         </ul> 
     </div>
 </nav>`;
