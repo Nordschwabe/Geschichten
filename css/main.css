@@ -133,7 +133,7 @@ h1, h4{
     
 }
 /* PC */
-@media(min-width: 400px) and (min-height: 400px){
+@media(min-width: 450px) and (min-height: 450px){
     .story{
         font-size: 16pt;
     }
@@ -190,6 +190,9 @@ h1, h4{
     .story{
         float: right;
         width: 73%;
+    }
+    .story{
+        height: 55vh;
     }
 }
 /* Everything else */
