@@ -1,5 +1,5 @@
 ---
-permalink: /html/index.html
+permalink: /index.html
 ---
 
 # Geschichten
